@@ -1,0 +1,46 @@
+.notFound {
+  width: 100vw;
+  height: 100vh;
+  padding: 7em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .showBox {
+    display: flex;
+    align-items: center;
+
+    .logo {
+      width: 35em;
+      margin-right: 2em;
+    }
+    .alertTextBox {
+      display: flex;
+      flex-direction: column;
+      h1 {
+        font-size: 5em;
+        padding-bottom: 0.2em;
+      }
+
+      p {
+        font-size: 1.3em;
+        line-height: 1.4em;
+      }
+      .buttonBox {
+        display: flex;
+        justify-content: c;
+        margin-top: 3em;
+        button {
+          width: 15em;
+          height: 5em;
+          background-color: #333;
+        }
+
+        a {
+          text-decoration: none;
+          color: white;
+        }
+      }
+    }
+  }
+}

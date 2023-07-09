@@ -1,0 +1,248 @@
+@import '../../styles/mixin.scss';
+// @import './PorcelainA/PorcelainA.scss';
+@import './ConstructionCase/ConstructionCase.scss';
+
+.productList {
+  padding-top: 78px;
+
+  .rangking {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4em;
+    
+
+    h1 {
+      font-size: 2.5em;
+      display: block;
+      width: 28em;
+      padding-bottom: 0.8em;
+      text-align: center;
+      border-bottom: 1px solid #999;
+    }
+
+    .rangkingBox {
+      display: flex;
+      justify-content: space-between;
+      width: 70em;
+      margin: 2em 0 2.5em;
+
+      li {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        h2 {
+          font-size: 1.8em;
+          font-weight: 600;
+          margin-bottom: 0.5em;
+        }
+
+        a {
+          text-decoration: none;
+          color: #333;
+          text-align: center;
+
+          .imgBox {
+            position: relative;
+
+            img {
+              display: block;
+              max-width: 100%;
+            }
+
+            button {
+              opacity: 0;
+              position: absolute;
+              left: 0;
+              bottom: 0;
+              width: 100%;
+              height: 3em;
+              border: 0;
+              background-color: rgba(51, 51, 51, 0.7);
+              font-size: 1.2em;
+              font-weight: 300;
+              color: #fffef2;
+              cursor: pointer;
+            }
+          }
+
+          p {
+            margin: 1em 0 0.3em;
+            font-size: 1.2em;
+            font-weight: 600;
+          }
+        }
+      }
+      li:hover {
+        a {
+          .imgBox {
+            button {
+              transition: all 0.3s;
+              opacity: 1;
+            }
+          }
+        }
+      }
+
+      li:not(:hover) {
+        a {
+          .imgBox {
+            button {
+              transition: all 0.3s;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .subCategory {
+    width: 100%;
+    height: 5em;
+    background-color: #f6f5e8;
+
+    .container {
+      display: flex;
+      align-items: center;
+      width: 63em;
+      height: 100%;
+      margin: 0 auto;
+      font-size: 1.3em;
+
+      span {
+        width: 1px;
+        height: 1.5em;
+        margin: 0 1.5em;
+        background-color: #333;
+        text-indent: -9999px;
+      }
+      .subCategoryBox {
+        display: flex;
+
+        h1 {
+          font-weight: 500;
+        }
+
+        li {
+          margin-right: 1.5em;
+
+          a {
+            @include NavScrollTextStyle;
+
+            &::after {
+              @include NavScrollTextUnder;
+            }
+          }
+
+          &:hover a::after {
+            @include NavScrollTexthover;
+          }
+        }
+      }
+    }
+  }
+
+  .productListBox {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 5em 0;
+
+    .productListRow {
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      width: 90em;
+
+      li {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 2em;
+        width: 300px;
+
+        a {
+          text-decoration: none;
+          color: #333;
+          text-align: center;
+          width: 100%;
+
+          .imgBox {
+            position: relative;
+
+            img {
+              display: block;
+              width: 100%;
+            }
+
+            button {
+              opacity: 0;
+              position: absolute;
+              left: 0;
+              bottom: 0;
+              width: 100%;
+              height: 3em;
+              border: 0;
+              background-color: rgba(51, 51, 51, 0.7);
+              font-size: 1.2em;
+              font-weight: 300;
+              color: #fffef2;
+              cursor: pointer;
+            }
+          }
+
+          p {
+            margin: 1em 0 0.3em;
+            font-size: 1.2em;
+            font-weight: 600;
+          }
+        }
+      }
+
+      li:hover {
+        a {
+          .imgBox {
+            button {
+              transition: all 0.3s;
+              opacity: 1;
+            }
+          }
+        }
+      }
+
+      li:not(:hover) {
+        a {
+          .imgBox {
+            button {
+              transition: all 0.3s;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .productListBox.case {
+    .productListRow {
+      li {
+        width: 680px;
+        a {
+          .imgBox {
+            button {
+              display: none;
+            }
+          }
+          p {
+            font-size: 1.4em;
+          }
+          span {
+            display: none;
+          }
+        }
+      }
+    }
+  }
+}

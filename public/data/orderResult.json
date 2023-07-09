@@ -1,0 +1,30 @@
+{
+  "data": {
+    "order_number": "q2837128942364897et87328945238947124897234",
+    "total_price": "2100000",
+    "total_weight": 2100,
+    "address": "당신네의 집 주소",
+    "name": "최진이",
+    "email": "asdfs@gmail.com",
+    "product": [
+      {
+        "product_id": 11,
+        "quantity": 10,
+        "name": "SDH_04",
+        "surface_type_id": 1
+      },
+      {
+        "product_id": 22,
+        "quantity": 5,
+        "name": "SDH_14",
+        "surface_type_id": 2
+      },
+      {
+        "product_id": 13,
+        "quantity": 7,
+        "name": "SDH_zxc",
+        "surface_type_id": 2
+      }
+    ]
+  }
+}

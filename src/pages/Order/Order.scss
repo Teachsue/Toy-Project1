@@ -1,0 +1,173 @@
+.order {
+  padding-top: 5em;
+
+  .bigBox {
+    display: flex;
+
+    .buyerInfo {
+      width: 50%;
+      padding: 3em 5em;
+
+      h1 {
+        margin-bottom: 1em;
+        font-size: 1.7em;
+      }
+
+      .userInfo {
+        font-size: 1.3em;
+        margin-bottom: 0.5em;
+      }
+
+      .shippingAddress {
+        display: flex;
+        flex-direction: column;
+        padding-top: 4em;
+        width: 40em;
+
+        h2 {
+          font-size: 1.7em;
+          margin-bottom: 1.5em;
+        }
+
+        .orderTypeName {
+          margin-top: 1em;
+          color: #9888;
+        }
+
+        .input {
+          font-size: 1em;
+          width: 100%;
+          height: 4em;
+          border: none;
+          border-bottom: 1px solid rgb(180, 180, 180);
+          background-color: transparent;
+          &:focus {
+            outline: none;
+          }
+        }
+      }
+    }
+
+    .perchaseBox {
+      width: 50%;
+
+      padding: 3em;
+      background-color: rgb(246, 239, 223);
+
+      .payBox {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding-right: 1em;
+        padding-bottom: 1em;
+        border-bottom: 1px solid grey;
+
+        .resultText {
+          font-size: 1.3em;
+          padding-bottom: 0.7em;
+        }
+
+        .final {
+          text-align: end;
+        }
+      }
+
+      .orderEmpty {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        margin: 0 auto;
+        height: 20em;
+        font-size: 1em;
+      }
+
+      .total {
+        .indexBox {
+          border-bottom: 1px solid grey;
+        }
+
+        .item {
+          display: flex;
+          flex-direction: row;
+          justify-content: space-between;
+          border-bottom: 1px solid rgb(180, 180, 180);
+          padding: 1em 0;
+
+          .perchaseImage {
+            width: 5.4em;
+          }
+        }
+
+        .perchaseOption {
+          justify-content: space-between;
+          display: flex;
+          flex-direction: column;
+          text-align: center;
+          align-items: center;
+          width: 1500px;
+          margin: 0 auto;
+        }
+      }
+    }
+
+    .buttonBox {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      padding: 1em;
+      align-items: center;
+
+      .alertTextBox {
+        .alertText {
+          margin-top: 2em;
+          color: #ff0000;
+        }
+      }
+
+      .payment {
+        background-color: #333;
+        border: 0;
+        color: white;
+        margin-top: 3em;
+        width: 20em;
+        height: 4em;
+        position: relative;
+      }
+
+      .gotoHome {
+        background-color: #333;
+        border: 0;
+        color: white;
+        margin-top: 3em;
+        width: 20em;
+        height: 4em;
+        position: absolute;
+        z-index: 1;
+      }
+    }
+  }
+
+  .orederResultBox {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.8);
+    z-index: 9999;
+
+    .orderResult {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      width: 60em;
+      height: 90vh;
+      padding: 4em 4em;
+      background: #fffef2;
+      border: 5px solid #333;
+      transform: translate3d(-50%, -50%, 0);
+      overflow-y: scroll;
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "user": [
+    {
+      "id": 123,
+      "name": "김최이서",
+      "email": "asdf@naver.com",
+      "phoneNumber": "0104032321",
+      "payWay": "Point",
+      "receiveMan": "배송받을 사람",
+      "deliveryLocation": "서울시 송파구 어쩌구 저쩌구",
+      "deliveryRequest": "경비실에 맡겨주세요"
+    }
+  ]
+}

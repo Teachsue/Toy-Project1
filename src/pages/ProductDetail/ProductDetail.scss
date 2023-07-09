@@ -1,0 +1,166 @@
+.productDetail {
+  padding-top: 78px;
+
+  .productBox {
+    padding: 5em 0;
+    display: flex;
+    justify-content: center;
+    width: 90%;
+    margin: 0 auto;
+    border-bottom: 1px solid #666;
+
+    .itemImageBox {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
+      .productImage {
+        padding: 2em;
+        width: 35em;
+        height: 35em;
+        margin-right: 3em;
+      }
+    }
+
+    .productDescription {
+      display: flex;
+      flex-direction: column;
+      width: 28em;
+      padding: 2.2em;
+      margin-left: 3em;
+
+      .mainDescription {
+        border-bottom: 2px solid #333;
+        padding: 1em 0;
+      }
+
+      .productName {
+        font-size: 1.6em;
+        font-weight: 600;
+      }
+
+      .descriptionBox {
+        .usingType {
+          font-weight: 500;
+          padding-top: 1em;
+        }
+
+        .itemUsingType {
+          padding: 0.7em 00;
+          border-bottom: 1px solid #cbcbcb;
+        }
+      }
+    }
+
+    .productCountBox {
+      display: flex;
+      justify-content: space-between;
+      border-top: 2px solid #333;
+
+      .totalResult {
+        display: flex;
+        flex-direction: column;
+        padding-top: 1.5em;
+        align-items: flex-end;
+
+        .totalPrice {
+          display: flex;
+          align-items: center;
+          font-size: 1.2em;
+          font-weight: 600;
+          line-height: 1.4em;
+        }
+      }
+    }
+
+    .alertTextBox {
+      display: flex;
+      justify-content: center;
+      margin-bottom: 1.2em;
+
+      .alertText {
+        color: red;
+      }
+    }
+
+    .saveCart {
+      padding: 1em;
+      color: #d6d5cb;
+      background-color: #333;
+    }
+  }
+
+  .productExample {
+    display: flex;
+    justify-content: space-around;
+    width: 90%;
+    padding: 4em 0;
+    margin: 0 auto;
+    border-bottom: 1px solid #cacaca;
+    align-items: center;
+
+    .constructionWay {
+      display: flex;
+
+      .testCase {
+        width: 30em;
+        border-radius: 0.5em;
+      }
+    }
+
+    .constructionText {
+      display: flex;
+      flex-direction: column;
+
+      h1 {
+        margin-bottom: 1em;
+      }
+
+      h3 {
+        padding-top: 0.6em;
+        font-size: 1.3em;
+      }
+
+      .exampleText {
+        padding-top: 2em;
+      }
+    }
+
+    .constructionTitle {
+      font-size: 2em;
+    }
+  }
+
+  .productTableBox {
+    display: flex;
+    justify-content: space-around;
+    width: 90%;
+    padding-top: 3em;
+    padding-bottom: 6em;
+    margin: 0 auto;
+    border-top: 1px solid #333;
+
+    .productInformation {
+      .column-left {
+        display: flex;
+        padding: 0.7em 0;
+        justify-content: space-between;
+        font-size: 1.3em;
+        font-weight: 600;
+      }
+
+      .column-right {
+        display: flex;
+        padding: 0.7em 0;
+        justify-content: space-between;
+        font-size: 1.3em;
+      }
+
+      .robbery {
+        display: flex;
+        padding: 0.5em 0;
+        font-size: 1.2em;
+      }
+    }
+  }
+}

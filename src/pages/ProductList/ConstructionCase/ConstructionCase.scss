@@ -1,0 +1,37 @@
+.constructionCase {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 5em 0;
+
+  .constructionCaseBox {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 90em;
+
+    li {
+      position: relative;
+      display: flex;
+      align-items: center;
+      width: 44em;
+      margin-bottom: 2em;
+
+      img {
+        display: block;
+        max-width: 100%;
+      }
+
+      p {
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        padding: 0.5em;
+        background-color: rgba(51, 51, 51, 0.5);
+        color: #fffef2;
+        font-size: 1.3em;
+      }
+    }
+  }
+}

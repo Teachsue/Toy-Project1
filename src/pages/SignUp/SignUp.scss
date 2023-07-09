@@ -1,0 +1,67 @@
+@import '../../components/Component/Input/Input.scss';
+@import '../../components/Component/CheckTextarea/CheckTextarea.scss';
+@import '../../components/Component/Button/Button.scss';
+
+.signUp {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  padding-top: 78px;
+
+  .accountSelect {
+    .accountSelectContainer {
+      display: flex;
+
+      .blackBtn {
+        width: 11em;
+        height: 3em;
+        margin: 0;
+        padding: 0;
+        font-size: 24px;
+      }
+
+      span {
+        display: block;
+        width: 1px;
+        height: 72px;
+        margin: 0 30px;
+        background-color: #333;
+        text-indent: -9999px;
+      }
+    }
+  }
+
+  .container {
+    border: 1px solid #999;
+    padding: 2em 1.2em;
+    margin: 2em 0;
+
+    h1 {
+      font-size: 1.5em;
+    }
+
+    .form {
+      display: flex;
+      flex-direction: column;
+
+      .userInfo {
+        display: flex;
+        flex-direction: column;
+      }
+
+      span {
+        cursor: pointer;
+        margin-top: 1.5em;
+        text-align: center;
+        font-size: 14px;
+        font-weight: 400;
+
+        a {
+          color: #666;
+          text-decoration: none;
+        }
+      }
+    }
+  }
+}

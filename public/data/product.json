@@ -1,0 +1,15 @@
+{
+  "product": [
+    {
+      "id": "1",
+      "name": "FishSauce tile",
+      "description": "DH씨 추천의 최신 디자인의 친환경 타일",
+      "image_url": "https://raw.githubusercontent.com/Teachsue/Image_URL/main/P_1_CTN_01_1.jpg",
+      "surface_type_id": 3,
+      "using": "내장재",
+      "sub_category_id": 1,
+      "weight": "100",
+      "price": "1000"
+    }
+  ]
+}

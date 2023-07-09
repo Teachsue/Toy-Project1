@@ -1,0 +1,35 @@
+@mixin NavTopTextStyle {
+  color: #fffef2;
+  text-decoration: none;
+}
+@mixin NavTopTextUnder {
+  content: '';
+  display: block;
+  width: 100%;
+  height: 1px;
+  margin: 1px auto;
+  background: #fffef2;
+  transform: scaleX(0);
+  transition: all 0.5s;
+}
+@mixin NavTopTexthover {
+  transform: scaleX(1);
+}
+
+@mixin NavScrollTextStyle {
+  color: #333;
+  text-decoration: none;
+}
+@mixin NavScrollTextUnder {
+  content: '';
+  display: block;
+  width: 100%;
+  height: 1px;
+  margin: 1px auto;
+  background: #333;
+  transform: scaleX(0);
+  transition: all 0.5s;
+}
+@mixin NavScrollTexthover {
+  transform: scaleX(1);
+}

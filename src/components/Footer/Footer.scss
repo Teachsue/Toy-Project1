@@ -1,0 +1,104 @@
+.footer {
+  position: relative;
+  color: #d6d5cb;
+
+  .container {
+    width: 100vw;
+    padding-bottom: 1em;
+    padding-right: 2em;
+    display: flex;
+    justify-content: space-between;
+    background-color: #333;
+
+    .item {
+      margin-left: 1em;
+      width: 24em;
+      padding: 0 1em;
+
+      .bottomBorderBox {
+        border-bottom: 1px solid #d6d5cb;
+        padding: 1.5em 0;
+        width: 97%;
+      }
+
+      .guideText {
+        padding: 1.5em 0;
+      }
+
+      .inputBox {
+        height: 50px;
+        width: 100%;
+        padding: 1em 0;
+        accent-color: #fffef2;
+      }
+
+      .description {
+        border: 1px solid #d6d5cb;
+        padding: 1em;
+        line-height: 160%;
+      }
+
+      .consent-box {
+        border: 1px solid black;
+        border-radius: 0.5em;
+      }
+
+      .emailInput {
+        display: flex;
+        align-items: center;
+        margin-top: 1.4em;
+
+        .footerInput {
+          display: inline;
+          height: 3.8em;
+          width: 100%;
+          border: 1px solid #d6d5cb;
+          background-color: #333;
+          color: #d6d5cb;
+          font-size: 0.9em;
+          padding: 1em;
+          outline: none;
+          &::placeholder {
+            color: #d6d5cb;
+          }
+        }
+
+        .footer-Btn {
+          width: 4.5em;
+          height: 4.1em;
+          border: 1px solid #d6d5cb;
+          background-color: transparent;
+          border-left: transparent;
+          outline: none;
+          color: #d6d5cb;
+        }
+      }
+    }
+
+    .item2 {
+      padding-left: 2em;
+      padding-right: 2em;
+      width: 20%;
+
+      .bottomBorderBox {
+        border-bottom: 1px solid #d6d5cb;
+        padding: 1.5em 0;
+        width: 100%;
+      }
+
+      .guideText {
+        padding: 1.5em;
+        width: 100%;
+      }
+    }
+  }
+}
+
+@media (max-width: 700px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: space-around;
+  }
+}

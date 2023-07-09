@@ -1,0 +1,139 @@
+.cart {
+  padding-top: 79px;
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 4em 0;
+
+    h1 {
+      display: block;
+      padding-bottom: 0.8em;
+      font-size: 2.5em;
+      text-align: center;
+    }
+
+    .cartBox {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      background-color: #f6f5e8;
+      padding: 1em 0;
+
+      ul {
+        display: grid;
+        grid-template-columns: repeat(6, 1fr) 0.2fr;
+        text-align: center;
+        align-items: center;
+        width: 1000px;
+        margin: 0 auto;
+      }
+
+      .cartTitle {
+        padding: 1em 0;
+        font-size: 1.2em;
+        font-weight: 600;
+        border-bottom: 3px solid #333;
+
+        li:last-child {
+          visibility: hidden;
+          font-size: 1px;
+        }
+      }
+
+      .cartEmpty {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 1000px;
+        margin: 0 auto;
+        height: 20em;
+        p {
+          color: #999;
+          font-weight: 300;
+          font-size: 2.5em;
+        }
+      }
+
+      .cartListBox {
+        .cartList {
+          padding: 1.5em 0;
+          border-bottom: 1px solid #666;
+          font-size: 1.2em;
+
+          &:last-child {
+            border-bottom: none;
+          }
+
+          .count {
+            margin: 0;
+          }
+
+          .deletBtn {
+            button {
+              cursor: pointer;
+              border: 0;
+              background: none;
+              font-size: 1em;
+            }
+          }
+        }
+      }
+    }
+
+    .right {
+      width: 1000px;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-end;
+
+      .totalBox {
+        width: 25em;
+        margin: 1em 0;
+
+        ul {
+          display: grid;
+          grid-template-columns: repeat(2, 1fr);
+          text-align: center;
+          align-items: center;
+          padding: 0.5em 0;
+        }
+
+        .totalTitle {
+          border-bottom: 1px solid #333;
+          font-size: 1.2em;
+          font-weight: 600;
+        }
+
+        .weightLimitTextBox {
+          height: 1em;
+          color: #f00;
+          text-align: center;
+          line-height: 1em;
+        }
+      }
+
+      .buttonBox {
+        display: flex;
+        justify-content: space-between;
+        width: 25em;
+
+        .blackBtn {
+          cursor: pointer;
+          margin-top: 0;
+          padding: 10px 39px;
+          border: 0;
+          background-color: #333;
+          color: #fffef2;
+          font-weight: 100;
+
+          &:nth-child(2) {
+            margin: 0 1em;
+          }
+        }
+      }
+    }
+  }
+}

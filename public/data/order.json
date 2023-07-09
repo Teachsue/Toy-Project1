@@ -1,0 +1,64 @@
+{
+  "data": [
+    {
+      "cartId": 9,
+      "userId": 3,
+      "name": "dodo",
+      "email": "seodonhee@gmail.com",
+      "productId": 102,
+      "kindId": "Porcelain Tile",
+      "tileName": "CTN_14",
+      "sizeId": 1,
+      "surfaceTypeId": 1,
+      "price": "30000.00",
+      "weight": 30,
+      "quantity": 23,
+      "imageUrl": "https://raw.githubusercontent.com/Teachsue/Image_URL/main/P_1_CTN_01_1.jpg"
+    },
+    {
+      "cartId": 8,
+      "userId": 3,
+      "name": "do123o",
+      "email": "seod123onhee@gmail.com",
+      "productId": 1022,
+      "kindId": "Pdasd Tile",
+      "tileName": "das_14",
+      "sizeId": 3,
+      "surfaceTypeId": 1,
+      "price": "35000.00",
+      "weight": 90,
+      "quantity": 3,
+      "imageUrl": "https://raw.githubusercontent.com/Teachsue/Image_URL/main/P_1_CTN_01_1.jpg"
+    },
+    {
+      "cartId": 7,
+      "userId": 3,
+      "name": "dodo",
+      "email": "seodonhee@gmail.com",
+      "productId": 84,
+      "kindId": "Porcelain Tile",
+      "tileName": "CTN_13",
+      "sizeId": 2,
+      "surfaceTypeId": 1,
+      "price": "30000.00",
+      "weight": 45,
+      "quantity": 31,
+      "imageUrl": "https://raw.githubusercontent.com/Teachsue/Image_URL/main/P_1_CTN_01_1.jpg"
+    },
+    {
+      "cartId": 6,
+      "userId": 3,
+      "name": "dodo",
+      "email": "seodonhee@gmail.com",
+      "productId": 82,
+      "kindId": "Porcelain Tile",
+      "tileName": "CTN_21",
+      "sizeId": 1,
+      "surfaceTypeId": 2,
+      "price": "30000.00",
+      "weight": 130,
+      "quantity": 6,
+      "imageUrl": "https://raw.githubusercontent.com/Teachsue/Image_URL/main/P_1_CTN_01_1.jpg"
+    }
+  ]
+}

@@ -1,0 +1,85 @@
+.login {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 78px;
+
+  .container {
+    border: 1px solid #999;
+    margin: 100px 0;
+    padding: 2em 1.2em;
+
+    h1 {
+      font-size: 1.5em;
+    }
+
+    .select {
+      display: flex;
+      margin-top: 2em;
+
+      .inputBox {
+        margin-right: 0.5em;
+
+        input {
+          accent-color: #fffef2;
+          cursor: pointer;
+        }
+      }
+    }
+
+    .form {
+      display: flex;
+      flex-direction: column;
+
+      .userInfo {
+        display: flex;
+        flex-direction: column;
+        width: 35em;
+
+        input {
+          height: 1.5em;
+          margin-top: 2em;
+          background: none;
+          border: none;
+          border-bottom: 1px solid #ccc;
+          font-size: 20px;
+          caret-color: #333;
+          color: #333;
+
+          &::placeholder {
+            font-size: 20px;
+            color: #666;
+            font-weight: 100;
+          }
+
+          &:focus {
+            outline: none;
+          }
+        }
+      }
+
+      button {
+        cursor: pointer;
+        margin-top: 3em;
+        padding: 19px 23px;
+        border: 0;
+        background-color: #333;
+        color: #fffef2;
+        font-weight: 100;
+      }
+
+      span {
+        cursor: pointer;
+        margin-top: 2em;
+        text-align: center;
+        font-size: 14px;
+        font-weight: 400;
+
+        a {
+          color: #666;
+          text-decoration: none;
+        }
+      }
+    }
+  }
+}

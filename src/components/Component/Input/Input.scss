@@ -1,0 +1,19 @@
+.inputValue {
+  height: 1.5em;
+  margin-top: 2em;
+  background: none;
+  border: none;
+  border-bottom: 1px solid #ccc;
+  font-size: 20px;
+  caret-color: #333;
+  color: #333;
+
+  &::placeholder {
+    font-size: 20px;
+    color: #999;
+  }
+
+  &:focus {
+    outline: none;
+  }
+}

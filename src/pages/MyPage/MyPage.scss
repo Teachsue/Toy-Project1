@@ -1,0 +1,98 @@
+@import '../../styles/mixin.scss';
+
+.myPage {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  padding-top: 5em;
+
+  .welcomeBox {
+    width: 100vw;
+    height: 20em;
+    background-color: #ebe2d5;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+
+    h1 {
+      font-size: 2.5em;
+    }
+  }
+  .containerBox {
+    display: flex;
+    justify-content: center;
+
+    .sideBar {
+      padding: 4em 2.5em;
+      width: 16em;
+      display: flex;
+      flex-direction: column;
+
+      .myPageList {
+        li {
+          font-size: 1.2em;
+          margin-bottom: 2em;
+          width: 9em;
+
+          a {
+            @include NavScrollTextStyle;
+            display: inline-block;
+
+            &::after {
+              @include NavScrollTextUnder;
+            }
+          }
+
+          &:hover a::after {
+            @include NavScrollTexthover;
+          }
+        }
+      }
+    }
+    .userInfoBox {
+      display: flex;
+      margin-bottom: 3em;
+
+      .userInfo {
+        padding-top: 4em;
+
+        .infoTopBox {
+          .typeTitle {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            color: rgb(160, 154, 154);
+          }
+
+          .deleteButton {
+            border: none;
+            background-color: transparent;
+          }
+        }
+
+        .savedUserInfo {
+          padding-top: 1em;
+          font-size: 1.7em;
+          line-height: 1.4em;
+        }
+
+        .patchInfo {
+          width: 50em;
+          border: transparent;
+          background-color: transparent;
+          border-bottom: 1px solid rgb(197, 196, 196);
+          padding: 1em;
+          margin: 3em 0;
+
+          &:focus {
+            outline: none;
+          }
+        }
+
+        .deleteBox {
+          display: flex;
+        }
+      }
+    }
+  }
+}
